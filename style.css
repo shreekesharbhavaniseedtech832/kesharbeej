@@ -34,3 +34,10 @@ body{font-family:Arial;margin:0}header{background:#136f2d;color:#fff;padding:60p
     min-width:200px;
     font-weight:bold;
 }
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
