@@ -1,71 +1,85 @@
-body{
-font-family: Arial;
-margin:0;
-background:#f5f5f5;
-text-align:center;
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
 }
 
-header{
-background:green;
-color:white;
-padding:20px;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #0a7d3b;
+  color: white;
 }
 
-.logo{
-width:120px;
-margin:10px auto;
-display:block;
+.btn {
+  background: #25D366;
+  padding: 8px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.btn{
-display:inline-block;
-margin:10px;
-padding:10px 20px;
-background:white;
-color:black;
-text-decoration:none;
-border-radius:5px;
-font-weight:bold;
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+  color: white;
 }
 
-.whatsapp{
-background:#25D366;
-color:white;
+.hero-btns a {
+  margin: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.products{
-padding:20px;
+.call { background: #333; color: white; }
+.whatsapp { background: #25D366; color: white; }
+
+/* PRODUCTS */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 20px;
+  padding: 30px;
 }
 
-.product-card{
-background:white;
-margin:15px;
-padding:15px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-display:inline-block;
-width:250px;
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.product-card img{
-width:100%;
-height:200px;
-object-fit:contain;
+.card:hover {
+  transform: translateY(-10px);
 }
 
-.order-btn{
-display:block;
-margin-top:10px;
-padding:10px;
-background:green;
-color:white;
-text-decoration:none;
-border-radius:5px;
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
 }
 
-footer{
-background:#222;
-color:white;
-padding:15px;
-margin-top:20px;
+.order {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
 }
