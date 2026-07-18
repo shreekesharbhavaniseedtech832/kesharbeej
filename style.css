@@ -41,3 +41,30 @@ footer{
     padding:15px;
     margin-top:20px;
 }
+header{
+    background: linear-gradient(135deg, #2e7d32, #66bb6a);
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.tagline{
+    font-size:18px;
+    margin:10px 0;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:10px 15px;
+    background:white;
+    color:#2e7d32;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+    color:white;
+}
