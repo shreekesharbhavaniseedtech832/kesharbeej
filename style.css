@@ -15,3 +15,8 @@ body{font-family:Arial;margin:0}header{background:#136f2d;color:#fff;padding:60p
 .whatsapp:hover{
     background:#1ebe5d;
 }
+.logo{
+    width:120px;
+    height:auto;
+    display:block;
+    margin:20px auto;
