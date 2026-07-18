@@ -1,70 +1,71 @@
-body{font-family:Arial;margin:0}header{background:#136f2d;color:#fff;padding:60px 20px;text-align:center}.btn{background:#fff;color:#136f2d;padding:10px 20px;text-decoration:none;border-radius:6px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.card{padding:20px;border:1px solid #ddd;border-radius:8px}section{padding:30px}footer{background:#222;color:#fff;padding:20px}
-.whatsapp{
-    position:fixed;
-    right:20px;
-    bottom:20px;
-    background:#25D366;
-    color:white;
-    padding:12px 20px;
-    border-radius:50px;
-    text-decoration:none;
-    font-weight:bold;
-    box-shadow:0 4px 10px rgba(0,0,0,.3);
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+text-align:center;
 }
 
-.whatsapp:hover{
-    background:#1ebe5d;
-}
-.logo{
-    width:120px;
-    height:auto;
-    display:block;
-    margin:20px auto;
-.products{
-    text-align:center;
-    padding:20px;
-}
-
-.product{
-    background:#e8f5e9;
-    margin:10px;
-    padding:12px;
-    border-radius:8px;
-    display:inline-block;
-    min-width:200px;
-    font-weight:bold;
-}
-footer{
-    background:#2e7d32;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:20px;
-}
 header{
-    background: linear-gradient(135deg, #2e7d32, #66bb6a);
-    color:white;
-    text-align:center;
-    padding:30px 20px;
+background:green;
+color:white;
+padding:20px;
 }
 
-.tagline{
-    font-size:18px;
-    margin:10px 0;
+.logo{
+width:120px;
+margin:10px auto;
+display:block;
 }
 
 .btn{
-    display:inline-block;
-    margin:10px;
-    padding:10px 15px;
-    background:white;
-    color:#2e7d32;
-    text-decoration:none;
-    border-radius:5px;
-    font-weight:bold;
+display:inline-block;
+margin:10px;
+padding:10px 20px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
 }
 
-.whatsapp-btn{
-    background:#25D366;
-    color:white;
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.products{
+padding:20px;
+}
+
+.product-card{
+background:white;
+margin:15px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+display:inline-block;
+width:250px;
+}
+
+.product-card img{
+width:100%;
+height:200px;
+object-fit:contain;
+}
+
+.order-btn{
+display:block;
+margin-top:10px;
+padding:10px;
+background:green;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+footer{
+background:#222;
+color:white;
+padding:15px;
+margin-top:20px;
 }
