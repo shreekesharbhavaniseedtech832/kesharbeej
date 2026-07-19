@@ -22,82 +22,88 @@
   <div class="buttons">
     <a href="tel:7096438261" class="btn call">📞 Call Now</a>
     <a href="https://wa.me/917096438261" class="btn whatsapp">💬 WhatsApp</a>
+  </div><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SeedTech Ultra</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<header id="navbar">
+  <h2>🌱 SeedTech</h2>
+  <input type="text" id="search" placeholder="Search product...">
+</header>
+
+<!-- Hero Slider -->
+<section class="hero">
+  <div class="slider">
+    <img src="bajra1.png" class="slide active">
+    <img src="cotton.png" class="slide">
+    <img src="cumin.png" class="slide">
+  </div>
+
+  <div class="hero-text">
+    <h1>Premium Seeds Company</h1>
+    <p>Grow More, Earn More 🌾</p>
   </div>
 </section>
 
-<!-- PRODUCTS -->
+<!-- Products -->
 <section class="products">
-<h2>Our Products</h2>
+  <h2>Our Products</h2>
 
-<div class="grid">
+  <div id="product-list" class="card-container">
 
-<div class="card">
-<img src="castor.png">
-<h3>KESHAR-2 Castor</h3>
-<a href="https://wa.me/917096438261?text=Castor Order">Order</a>
-</div>
+    <div class="card" data-name="bajra">
+      <img src="bajra1.png">
+      <h3>Bajra</h3>
+      <button onclick="order('Bajra')">Order</button>
+    </div>
 
-<div class="card">
-<img src="bajra1.png">
-<h3>KESAR SUPER 11+22</h3>
-<a href="#">Order</a>
-</div>
+    <div class="card" data-name="cotton">
+      <img src="cotton.png">
+      <h3>Cotton</h3>
+      <button onclick="order('Cotton')">Order</button>
+    </div>
 
-<div class="card">
-<img src="bajra2.png">
-<h3>KESAR 75 Bajra</h3>
-<a href="#">Order</a>
-</div>
+    <div class="card" data-name="cumin">
+      <img src="cumin.png">
+      <h3>Cumin</h3>
+      <button onclick="order('Cumin')">Order</button>
+    </div>
 
-<div class="card">
-<img src="bajra3.png">
-<h3>KESAR GOLD 4441</h3>
-<a href="#">Order</a>
-</div>
-
-<div class="card">
-<img src="cotton.png">
-<h3>KESHAR Cotton</h3>
-<a href="#">Order</a>
-</div>
-
-<div class="card">
-<img src="mustard.png">
-<h3>Mustard</h3>
-<a href="#">Order</a>
-</div>
-
-<div class="card">
-<img src="fennel.png">
-<h3>Fennel</h3>
-<a href="#">Order</a>
-</div>
-
-<div class="card">
-<img src="cumin.png">
-<h3>Cumin</h3>
-<a href="#">Order</a>
-</div>
-
-</div>
+  </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about">
-<h2>About Us</h2>
-<p>We provide high quality seeds across Gujarat with trusted farming solutions.</p>
-</section>
+<!-- Modal -->
+<div id="modal" class="modal">
+  <span onclick="closeModal()">×</span>
+  <img id="modal-img">
+  <h2 id="modal-title"></h2>
+</div>
 
-<!-- CONTACT -->
+<!-- Contact -->
 <section class="contact">
-<h2>Contact</h2>
-<p>📍 Gandhinagar</p>
-<p>📞 7096438261</p>
-<p>📧 kesarbhavaniseeds@gmail.com</p>
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button>Send</button>
+  </form>
 </section>
 
-<!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/917096438261" class="whatsapp-float">💬</a>
+<script src="script.js"></script>
 
 </body>
 </html>
