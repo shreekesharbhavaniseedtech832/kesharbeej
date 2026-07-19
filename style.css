@@ -10,15 +10,24 @@ body{
 }
 
 /* Navbar */
-header{
+.navbar{
   position:fixed;
-  width:100%;
   top:0;
+  width:100%;
   display:flex;
   justify-content:space-between;
-  padding:15px 40px;
-  background:rgba(46,125,50,0.9);
-  color:white;
+  align-items:center;
+  padding:10px 40px;
+  background:rgba(255,255,255,0.2);
+  backdrop-filter:blur(10px);
+  z-index:1000;
+}
+
+nav a{
+  margin:0 15px;
+  text-decoration:none;
+  color:#2e7d32;
+  font-weight:500;
 }
 
 #search{
