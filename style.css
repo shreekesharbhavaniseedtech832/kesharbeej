@@ -36,9 +36,29 @@ nav a{
 
 /* Hero Slider */
 .hero{
+ .hero{
   height:100vh;
-  position:relative;
-  overflow:hidden;
+  background:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef') no-repeat center/cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.hero-content{
+  background:rgba(0,0,0,0.5);
+  padding:30px;
+  border-radius:10px;
+  color:white;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 20px;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
 }
 
 .slide{
@@ -76,11 +96,17 @@ nav a{
 }
 
 .card{
-  width:250px;
-  margin:15px;
   background:white;
+  width:250px;
+  margin:20px;
   padding:15px;
-  border-radius:10px;
+  border-radius:12px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
 }
 
 .card img{
